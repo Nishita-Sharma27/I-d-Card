@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color:rgba(176, 150, 227, 0.718) ;
+        }
+
+        .id-card {
+            width: 700px;
+            height: 400px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size:x-large ;
+            text-align: center;
+            font-family:serif ;
+            background-image: url('id_bg.jpeg');
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            /* margin-bottom: 20px;  */
+            
+        }
+
+        h2 {
+            margin: 5px 10px;
+            /* color: #333; */
+        }
+
+        p {
+            margin: 5px 0;
+            
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        header{
+            background-color:rgb(127, 255, 212) ;
+            height: 80px;
+            text-align: center;
+            font-family:serif;
+            font-size: xx-large;
+            padding: auto;
+            border-radius: 25%;
+            color: black;
+        }
+        #details{
+            margin: 5px 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="id-card">
+        <img src="id.jpg" alt="Profile Picture" class="profile-pic">
+        <header><h2><em>Nishita Sharma</em></h2></header>
+        <div id="details"><p>Degree: Bachelor of Computer Applications</p>
+        <p>College: Maharishi Arvind Institude of Science and Management</p>
+        <p>Year: 2022-2025</p></div>
+        <div class="contact-info">
+            <p>Email: sharmanishita54@gmail.com</p>
+            <p>Phone: 978XXXXXXX</p>
+            <p>Location: Jaipur, Rajasthan</p>
+        </div>
+    </div>
+</body>
+</html>
